@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+
+    tools:context="com.jogoler.android.bakingapp.fragment.RecipeDetailFragment">
+
+    <ScrollView
+        android:id="@+id/igredients_scroll_view"
+        android:fillViewport="false"
+        android:clipToPadding="false"
+        android:scrollIndicators="top|bottom"
+        android:scrollbarStyle="insideInset"
+        style="@android:style/Widget.Holo.ScrollView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/marginIgredients">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+
+            android:id="@+id/ingredient_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+             />
+
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/recipe_detail_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     />
+
+</LinearLayout>

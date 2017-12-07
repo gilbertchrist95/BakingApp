@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="landscape">phone-land</string>
+    <string name="tableLandscape">tablet-landscape</string>
+    <string name="appwidget_text">Ingredients will appear here after launching Baking App</string>
+    <string name="add_widget">Add widget</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="recipe_step_land">recipe_step_detail_sw600dp_land</string>
+    <string name="recipe_step_port">recipe_step_detail_sw600dp_port</string>
+</resources>

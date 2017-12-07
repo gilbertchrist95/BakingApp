@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recipe_linear_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="@string/tableLandscape"
+
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.jogoler.android.bakingapp.DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/detail_toolbar"
+        android:titleTextColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/container_fragment"
+            android:layout_width="220dp"
+            android:scaleType="centerInside"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_fragment2"
+            android:scaleType="centerInside"
+            android:layout_margin="@dimen/marginTablet"
+            android:padding="@dimen/paddingTabletLand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
